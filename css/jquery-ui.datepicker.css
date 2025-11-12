@@ -102,6 +102,8 @@
 .ui-datepicker .ui-datepicker-header {
 	position: relative;
 	padding: .2em 0;
+border-top: 3px solid hsl(0, 0%, 100%);
+border-radius: var(--breadcrumb_border_radius);
 }
 
 .ui-datepicker .ui-datepicker-prev,
@@ -200,6 +202,7 @@
 	/* font-size: .9em; */
 	border-collapse: collapse;
 	margin: 0 0 .4em;
+    background: hsl(234,10%, 89%);
 }
 
 .ui-datepicker th {
@@ -359,12 +362,12 @@
 }
 
 .ui-widget.ui-widget-content {
-	border: 1px solid #c5c5c5;
+	/*border: 1px solid #c5c5c5;*/
 }
 
 .ui-widget-content {
-	border: 1px solid #dddddd;
-	background: #ffffff;
+	/*border: 1px solid #dddddd;
+	background: #ffffff;*/
 	color: #333333;
 }
 
@@ -376,7 +379,7 @@
 	color: #fff;
 	font-family: "Tahoma", sans-serif;
 	font-weight: bold;
-	background: #557ea0;
+	background: hsl(207, 59%, 65%);
 	border-bottom: 1px solid #777;
 	padding: 0;
 	border-radius: 6px 6px 0 0;
